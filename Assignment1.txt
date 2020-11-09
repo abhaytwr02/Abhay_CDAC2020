@@ -1,0 +1,263 @@
+class Add
+{
+ public static void main(String args[])
+    {
+ int a = 74;
+ int b = 36;
+ int c = a+b;
+System.out.println(c);
+}
+}
+-----------------------------------------------------------------------------------------
+class Area
+{
+ public static void main(String args[])
+    {
+      float width = 5.6f;
+      float height = 8.5f;
+      float a = width*height;
+      float b = 2*(width+height);
+      
+        System.out.println("Area is 5.6*8.5 =" +" "+a);
+        System.out.println("Perimeter is 2*(5.6+8.5)=" +" "+b );
+    }
+}
+---------------------------------------------------------------------------------------------
+class Average
+{
+ public static void main(String args[])
+    {
+      int a = 4;
+      int b = 6;
+      int c = 5;
+      int d = a+b+c;
+        System.out.println(d/3);
+    }
+}
+---------------------------------------------------------------------------------------------
+class Circle
+{
+ public static void main(String args[])class Division
+{
+ public static void main(String args[])
+    {
+ int a = 50;
+ int b = 3;
+ int c = a/b;
+System.out.println(c);
+}
+}
+    {
+        double Radius = 7.5;
+        double d = Math.PI*(Radius)*(Radius);
+        double c = 2*Math.PI*Radius;
+        System.out.println("Perimeter is =  "+d);
+        System.out.println("Area is = "+c);
+    }
+}
+-------------------------------------------------------------------------------------
+class Division
+{
+ public static void main(String args[])
+    {
+ int a = 50;
+ int b = 3;
+ int c = a/b;
+System.out.println(c);
+}
+}
+--------------------------------------------------------------------------------------------
+
+class Double
+{
+ public static void main(String args[])
+    {
+        double d = (((25.5*3.5)-(3.5*3.5))/(40.5-4.5));
+        System.out.println(d);
+    }
+}
+------------------------------------------------------------------------------------------
+class Double2
+{
+ public static void main(String args[])
+    {
+        double d = 4.0*(1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11));
+        System.out.println(d);
+    }
+}
+-----------------------------------------------------------------------------------------
+class Face
+{
+ public static void main(String args[])
+    {
+    System.out.println("  +''''''''''''''+  "
+                    +"\n[ |   o      o   | ]"
+                    +"\n  |      ^       |"
+                    +"\n  |    '   '     |"
+                    +"\n  |      -       |"
+                    +"\n  +--------------+");
+                    
+    }   
+}
+------------------------------------------------------------------------------------------
+
+class Flag
+{
+ public static void main(String args[])
+    {
+    System.out.println("* * * *================="
+                    +"\n * * * ================="
+                    +"\n* * * *================="
+                    +"\n * * * ================="
+                    +"\n* * * *================="
+                    +"\n * * * ================="
+                    +"\n* * * *================="
+                    +"\n * * * ================="
+                    +"\n========================"
+                    +"\n========================"
+                    +"\n========================"
+                    +"\n========================");
+    }   
+}
+-----------------------------------------------------------------------------------
+class Hello
+{
+ public static void main(String args[])
+    {
+System.out.println("Hello");
+System.out.println("Alexandra Abramov");
+}
+}
+-------------------------------------------------------------------------
+class Java1
+{
+ public static void main(String args[])
+    {
+      System.out.println   ("   j          j        j              j           j"
+                         +"\n   j         j  j       j            j          j  j"    
+                         +"\n   j        j    j       j          j          j    j"
+                         +"\n   j       j      j       j        j          j      j"
+                         +"\n   j      j        j       j      j          j        j"
+                    +"\njj j     j          j       j    j          j          j"       
+                      +"\n jj     j            j        j           j            j");
+   
+}  
+}
+-------------------------------------------------------------------------------------------
+class Operation
+{
+ public static void main(String args[])
+    {
+ int a = -5+8*6;
+ int b = (55+9)%9;
+ int c =  20+(-3*5)/8;
+ int d = 5+(15/3)*2-(8%3);
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+System.out.println(d);
+}
+}
+
+
+---------------------------------------------------------------------------------------
+
+class Operation2
+{
+ public static void main(String args[])
+    {
+ int a = 125;
+ int b = 24;
+ int c = a+b;
+ int d = a-b;
+ int e = a*b;
+ int f = a/b;
+ int g = a%b;
+System.out.println(a+ " + " +b+ " = " +c);
+System.out.println(a+ " - " +b+ " = " +d);
+System.out.println(a+ " * " +b+ " = " +e);
+System.out.println(a+ " / " +b+ " = " +f);
+System.out.println(a+ " % " +b+ " = " +g);
+}
+}
+------------------------------------------------------------------------------------------
+class Operation2
+{
+ public static void main(String args[])
+    {
+ int a = 25;
+ int b = 5;
+ int c = a+b;
+ int d = a-b;
+ int e = a*b;
+ int f = a/b;
+ int g = a%b;
+System.out.println(a+ " * " +b+ " = " +c);
+
+}
+}
+ -------------------------------------------------------------------------------------
+class Que19 
+{
+   public static void main( String args[] ) 
+{
+      int dec = 5;
+      String bin = Integer.toBinaryString(dec);
+      System.out.println("Binary no. is: "+bin);
+   }
+}
+--------------------------------------------------------------------------
+class Que20 
+{
+   public static void main( String args[] )
+   {
+  int i = 15;
+String hex = Integer.toHexString(i);
+System.out.println("Hexadecimal number is: " + hex);
+   }
+}
+-----------------------------------------------------------------------------
+class Que21
+{
+public static void main(String args[])
+{  
+System.out.println(Integer.toOctalString(15));  
+}
+}  
+-------------------------------------------------------------------------
+class Que22
+ {
+public static void main(String args[])
+{
+String binarynumber="100";
+int decimalnumber=Integer.parseInt(binarynumber,2);
+System.out.println("decimal number = " +decimalnumber);
+}
+}
+--------------------------------------------------------------------------------
+class Swap
+{
+ public static void main(String args[])
+    {
+     int a = 4;
+     int b = 6;
+     int c = a;
+         a = b;
+         b = c;
+    System.out.println("a =" +" "+a);
+       System.out.println("b =" +" "+b);
+    }
+}
+------------------------------------------------------------------------------------
+class Table
+{
+ public static void main(String args[])
+    {
+        int a = 8;
+ for(int i=1;i<=10;i++)
+System.out.println(a+" "+ "*" +"  " +i+" "+ "=" +" "+a*i);
+}
+}
+
+
+

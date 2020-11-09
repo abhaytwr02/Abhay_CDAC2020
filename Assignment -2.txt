@@ -1,0 +1,319 @@
+package Assignment1;
+1.
+public class One1 
+{
+	public static void main(String args[])
+	{
+		System.out.println("Hello World");
+	}
+
+}
+---------------------------------------------------------------------------------
+package Assignment1;
+2.
+public class One2 
+{
+	public static void main(String args[])
+	{
+		int roll_no;
+		roll_no=100;
+		System.out.println("roll no = "+roll_no); 
+	}
+}
+--------------------------------------------------------------------------------------
+package Assignment1;
+3.
+public class One3 
+{
+	public static void main(String args[])
+	{
+	int x=2 ,z ,y ,a;
+	boolean b ,c=true,d=false;
+	y = x^2+3*x-7 ;
+	System.out.println(y);
+	a = x++ + ++x;
+	System.out.println(a);
+	z = x++ - --y - --x  +  x++ ;
+	System.out.println(z);
+	b = c && d || !(c || d);
+	System.out.println(b);
+	}
+}
+
+------------------------------------------------------------------------------------------
+package Assignment1;
+4.
+public class One4 
+{
+		public static void main(String args[])
+		{
+		short a=10;
+		byte b = (byte) a;
+		System.out.println(b);
+		}
+	}
+
+------------------------------------------------------------------------------
+package Assignment1;
+5.
+public class One5 
+{
+	public static void main(String args[])
+	{
+	
+	System.out.println("Welcome <"+args[0]+">");
+	}
+
+}
+----------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One6 
+{
+	public static void main(String args[])
+	{
+	Scanner sc = new Scanner(System.in);
+	double r =sc.nextDouble();
+	sc.close();
+	System.out.println("Radius ="+r);
+	double area = 3.14*(r*r);
+	System.out.println("Area of circle ="+area);
+	double circumferance = 3.14* 2*r;
+	System.out.println("Circumferance of circle ="+circumferance);
+	}
+
+}
+---------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One7 
+{
+	public static void main (String[] args)
+	{
+	int total=0,percentage;
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter the number of Subject :");
+	int a =sc.nextInt();
+	int marks[] =new int[a];
+	sc.close();
+	System.out.println("Enter the marks out of 100 :");
+	for(int i=0;i<a;i++)
+	{
+	marks[i]=sc.nextInt();
+	total = total + marks[i];
+	}
+	percentage=total / a;
+	System.out.println("Total marks = "+total);
+	System.out.println("Percentage = "+percentage+"%");
+	
+	
+	}
+
+}
+-------------------------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One8 
+{
+	public static void main (String args[])
+	{
+	double p,n,r,i;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter principal amount: ");
+	p=sc.nextDouble();
+
+	System.out.println("Enter time ");
+	n=sc.nextDouble();
+
+	System.out.println("Enter rate of intrest ");
+	r=sc.nextDouble();
+	sc.close();
+
+	i=(p*n*r)/100 ;
+
+	System.out.println("Simple Intrest ="+i);
+
+	}
+
+}
+---------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One9 {
+	public static void main(String[] args) {
+		int num, year, week, day;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number of days:");
+		num = sc.nextInt();
+		year = num / 365;
+
+		System.out.println("No.of years:"+year);
+		week = num / 7;
+
+		System.out.println("No.of weeks:"+week);
+		day = num;
+		System.out.println("No.of days:"+day);
+		sc.close();
+	}
+
+}
+
+
+
+------------------------------------------------------------------------------
+package Assignment1;
+import java.util.*;
+public class One10 
+{
+	public static void main(String args[])
+	{
+	Scanner sc =new Scanner(System.in);
+	int f=sc.nextInt();
+	System.out.println("Enter Fahrenheit ");
+	double c;
+	c=5*(f-32)/9;
+	sc.close();
+	System.out.println("Celsius = "+c);
+	}
+
+}
+----------------------------------------------------------------------------------------
+package Assignment1;
+import java.util.*;
+public class One11 
+{
+	public static void main(String args[])
+	{
+		Scanner sc =new Scanner(System.in);
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		x=x+y;
+		y=x-y;
+		x=x-y;
+		sc.close();
+		System.out.println("x ="+x+" y="+y);
+	}
+
+}
+--------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One12 
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		float basic_salary, gross_salary, da, hra;
+		System.out.println("Enter Basic Salary Of Employee = ");
+		basic_salary=sc.nextFloat();
+
+		if (basic_salary<1500)
+		{
+			hra=basic_salary*10/100;
+			da=basic_salary*90/100;
+		}
+		else
+		{
+			hra=500;
+			da=(basic_salary*98/100);
+		}
+
+		gross_salary=basic_salary + hra + da;
+
+		System.out.println("Gross Salary Of Employee Is = "+gross_salary+" Rupyees.");
+		sc.close();		
+	}
+
+}
+------------------------------------------------------------------------------------------------------
+
+package Assignment1;
+import java.util.Scanner;
+public class One13 {
+	public static void main(String[] args) {
+
+        int num1, num2, num3, result, temp;
+      
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number:");
+        num1 = sc.nextInt();
+        System.out.println("Enter Second Number:");
+        num2 = sc.nextInt();
+        System.out.println("Enter Third Number:");
+        num3 = sc.nextInt();
+        sc.close();
+        temp = num1>num2 ? num1:num2;
+        result = num3>temp ? num3:temp;
+        System.out.println("Largest Number is:"+result);
+
+		
+
+	}
+}
+-------------------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One14 {
+	public static void main(String[] args) {
+		int year;
+    	Scanner scan = new Scanner(System.in);
+    	System.out.println("Enter any Year:");
+    	year = scan.nextInt();
+    	scan.close();
+        boolean Leap = false;
+
+        if(year % 4 == 0)
+        {
+            if( year % 100 == 0)
+            {
+                if ( year % 400 == 0)
+                    Leap = true;
+                else
+                    Leap = false;
+            }
+            else
+                Leap = true;
+        }
+        else {
+            Leap = false;
+        }
+
+        if(Leap==true)
+            System.out.println(year + " is a Leap Year.");
+        else
+            System.out.println(year + " is not a Leap Year.");
+
+	}
+}
+-----------------------------------------------------------------------------------------
+package Assignment1;
+import java.util.Scanner;
+public class One15 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the age");
+		System.out.println("Enter sex: Male or Female");
+		int age = sc.nextInt();
+		sc.nextLine();
+		String gender= sc.nextLine();
+
+
+
+		System.out.println("Your Gender = "+gender);
+		if(age >=18) {
+			System.out.println("You are eligible for marriage");
+		}
+		else {
+			System.out.println("You are not eligible for marriage");
+		}
+
+		sc.close();
+
+	}
+}
+---------------------------------------------------------------------------
+
+
+
+
+
