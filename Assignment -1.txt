@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //1.
 
-class Assignment1
+class Que1
 {
     public static void main(String args []){
         System.out.println("Hello World");
@@ -13,7 +13,7 @@ class Assignment1
 
 -----------------------------------------------------------------------------------------
 //2.
-class Assignment1
+class Que2
 {
     public static void main(String args []){
         int rollNo=100;
@@ -24,7 +24,7 @@ class Assignment1
 --------------------------------------------------------------------------------------------------
 
 //3.
-class Assignment1
+class Que3
 {
     public static void main(String args []){
         Scanner sc=new Scanner (System.in);
@@ -54,7 +54,7 @@ class Assignment1
 --------------------------------------------------------------------------------------------------
 
 //5.
-class Assignment1{
+class Que5{
     public static void main(String args []){
         String a=args[0];
         System.out.println("Welcome  "+a);
@@ -65,7 +65,7 @@ class Assignment1{
 
 
 //6. 
-class Assignment1
+class Que6
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -86,7 +86,7 @@ class Assignment1
 
 //7.
 
-class Assignment1
+class Que7
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -109,7 +109,7 @@ class Assignment1
 
 
 //8. 
-class Assignment1
+class Que8
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -134,7 +134,7 @@ class Assignment1
 
 
 //9.
-class Assignment1
+class Que9
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -158,7 +158,7 @@ class Assignment1
 
 //10. 
 
-class Assignment1
+class Que10
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -180,7 +180,7 @@ class Assignment1
 
 //11. 
 
-class Assignment1
+class Que11
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -204,7 +204,7 @@ class Assignment1
 
 //12. 
 
-class Assignment1
+class Que12
 {
     public static void main(String args []){
         Scanner sc=new Scanner(System.in);
@@ -237,7 +237,7 @@ class Assignment1
 
 //13.1. 
 
-class Assignment1
+class Que13
 {
     public static void main(String args [])
     {
@@ -263,7 +263,7 @@ class Assignment1
 ---------------------------------------------------------------------------------------
 
 //13.2.	
-class Assignment1
+class Que13
 {
     public static void main(String args [])
     {
@@ -286,7 +286,7 @@ class Assignment1
 
 //14. 
 
-class Assignment1
+class Que14
 {
     public static void main(String args [])
     {
@@ -311,7 +311,7 @@ class Assignment1
 
 //15.
 
-class Assignment1
+class Que15
 {
     public static void main(String args [])
     {
